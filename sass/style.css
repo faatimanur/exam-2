@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: "Space Mono";
+  font-weight: 700;
+}
+
+p {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.navbar .navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+}
+.navbar .navbar-nav img:hover {
+  transition: all 0.7s ease;
+  opacity: 0.5;
+}
+.navbar .navbar-nav .navigation {
+  display: flex;
+  gap: 32px;
+}
+.navbar .navbar-nav .navigation a {
+  color: #939CAA;
+}
+.navbar .navbar-nav .navigation a:hover {
+  transition: all 0.7s ease;
+  color: #FCB72B;
+}
+.navbar button {
+  border: 1px solid #FCB72B;
+  background: transparent;
+  padding: 14px 0;
+}
+.navbar button:hover {
+  background: #FCB72B;
+  color: white;
+  transition: all 0.5s ease;
+}
+.navbar button a {
+  padding: 14px 39px;
+  color: #FCB72B;
+}
+.navbar button a:hover {
+  color: aliceblue;
+  background: #FCB72B;
+}
+
+main {
+  height: 100%;
+  background: url(../images/main-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .main-content {
+  padding: 153px 0;
+}
+main .main-content h1 {
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  width: 500px;
+}
+main .main-content .title {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+main .main-content .title .line {
+  width: 5%;
+  height: 0;
+  border: 8.5px solid #FCB72B;
+}
+main .main-content .title p {
+  width: 400px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+main .main-content .title img {
+  margin-top: 130px;
+}
+main .main-content button {
+  border: 1px solid #FCB72B;
+  background: transparent;
+  padding: 14px 0;
+  margin-left: 255px;
+}
+main .main-content button:hover {
+  background: #FCB72B;
+  color: white;
+}
+main .main-content button a {
+  padding: 14px 39px;
+  color: #FCB72B;
+}
+main .main-content button a:hover {
+  color: aliceblue;
+  background: #FCB72B;
+}
+
+.page-2 {
+  padding: 200px 0;
+}
+.page-2 .line {
+  border: 9px solid #E5ECF4;
+  width: 53%;
+}
+.page-2 .page-content {
+  position: relative;
+}
+.page-2 .page-content .cards {
+  position: absolute;
+  top: -60px;
+  display: flex;
+  gap: 30px;
+}
+.page-2 .page-content .cards .card {
+  width: 350px;
+}
+.page-2 .page-content .cards .card img {
+  margin-bottom: 40px;
+}
+.page-2 .page-content .cards .card h1 {
+  margin-bottom: 27px;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.page-2 .page-content .cards .card p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+.page-3 {
+  padding: 150px 0;
+}
+.page-3 .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 65px;
+  position: relative;
+}
+.page-3 .card .path-1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 500px;
+}
+.page-3 .card .path-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 500px;
+}
+.page-3 .card .img img {
+  border-radius: 50%;
+}
+.page-3 .card .title {
+  width: 600px;
+}
+.page-3 .card .title h1 {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+  margin-bottom: 24px;
+}
+.page-3 .card .title p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  margin-bottom: 40px;
+}
+.page-3 .card .title button {
+  border: 1px solid #FCB72B;
+  background: transparent;
+  padding: 14px 0;
+}
+.page-3 .card .title button:hover {
+  background: #FCB72B;
+  color: white;
+  transition: all 0.7s ease;
+}
+.page-3 .card .title button a {
+  padding: 14px 39px;
+  color: #FCB72B;
+}
+.page-3 .card .title button a:hover {
+  transition: all 0.7s ease;
+  color: aliceblue;
+  background: #FCB72B;
+}
+
+.footer-top {
+  height: 100%;
+  background: url(../images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.footer-top .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 102px 0;
+}
+.footer-top .footer-content h1 {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+  width: 415px;
+}
+.footer-top .footer-content .buttons {
+  display: flex;
+  gap: 18px;
+}
+.footer-top .footer-content .buttons a {
+  display: flex;
+  gap: 11px;
+  background: #E5ECF4;
+  border-radius: 4px;
+  padding: 8px 15px;
+}
+.footer-top .footer-content .buttons a span {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: -0.446429px;
+  color: #495567;
+}
+.footer-top .footer-content .buttons a h2 {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.892857px;
+  color: #495567;
+}
+.footer-top .footer-content .buttons a:hover {
+  transition: all 0.7s ease;
+  background: #FCB72B;
+}
+
+.footer-bottom {
+  background: #333A44;
+  padding: 10px 0;
+}
+.footer-bottom .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom .footer-content .text {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+}
+.footer-bottom .footer-content img:hover {
+  transition: all 0.5s ease;
+  opacity: 0.5;
+}
+.footer-bottom .footer-content .navigation {
+  display: flex;
+  gap: 32px;
+}
+.footer-bottom .footer-content .navigation a {
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+.footer-bottom .footer-content .navigation a:hover {
+  color: #FCB72B;
+  transition: all 0.7s ease;
+}
+.footer-bottom .footer-content .icons a {
+  margin-left: 24px;
+}
+.footer-bottom .footer-content .icons a:hover {
+  transition: all 0.7s ease;
+  opacity: 0.5;
+}
+
+@media (min-width: 447px) and (max-width: 769px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+  }
+  .navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  .navbar .navbar-nav .navigation {
+    display: flex;
+    gap: 10px;
+  }
+  .navbar button {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
