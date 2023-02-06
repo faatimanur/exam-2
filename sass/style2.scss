@@ -29,7 +29,6 @@ p {
     font-family: 'Lexend Deca';
     font-weight: 400;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -79,7 +78,7 @@ p {
 }
 main {
     height: 100%;
-    background: url(../images/main-img.jpg);
+    background: url(../images/home-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -90,91 +89,14 @@ main {
             line-height: 56px;
             letter-spacing: -2.5px;
             color: #FFFFFF;
-            margin-bottom: 40px;
-            width: 500px;
-        }
-        .title {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 35px;
-            .line {
-                width: 5%;
-                height: 0;
-                border: 8.5px solid #FCB72B;
-            }
-            p {
-                width: 400px;
-                font-size: 15px;
-                line-height: 25px;
-                color: #FFFFFF;
-            }
-            img {
-                margin-top: 130px;
-            }
-        }
-        button {
-            border: 1px solid #FCB72B;
-            background: transparent;
-            padding: 14px 0;
-            margin-left: 255px;
-            &:hover {
-                background: #FCB72B;
-                color: white;
-            }
-            a {
-                padding: 14px 39px;
-                color: #FCB72B;
-                &:hover {
-                    color: aliceblue;
-                    background: #FCB72B;
-                }
-            }
         }
     }
 }
-
-.page-2 {
-    padding: 200px 0;
-    .line {
-        border: 9px solid #E5ECF4;
-        width: 53%;
-    }
-    .page-content {
-        position: relative;
-        .cards {
-            position: absolute;
-            top: -60px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-            .card {
-                width: 350px;
-                img {
-                    margin-bottom: 40px;
-                }
-                h1 {
-                    margin-bottom: 27px;
-                    font-size: 24px;
-                    line-height: 28px;
-                    letter-spacing: -1.07143px;
-                    color: #495567;
-                }
-                p {
-                    font-size: 15px;
-                    line-height: 25px;
-                    color: #939CAA;
-                }
-            }
-        }
-    }
-}
-.page-3 {
+.page-1 {
     padding: 150px 0;
     .card {
         display: flex;
         align-items: center;
-        flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 65px;
         position: relative;
@@ -232,6 +154,43 @@ main {
         }
     }
 }
+.page-2 {
+    h1 {
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -2.14286px;
+        color: #495567;
+        margin-bottom: 25px;
+    }
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 150px;
+        .card {
+            width: 350px;
+            text-align: center;
+            img {
+                margin-bottom: 32px;
+            }
+            h2 {
+                font-size: 24px;
+                line-height: 28px;
+                letter-spacing: -1.07143px;
+                color: #495567;
+                margin-bottom: 27px;
+            }
+            p {
+                font-size: 15px;
+                line-height: 25px;
+                text-align: center;
+                color: #939CAA;
+            }
+        }
+    }
+}
 .footer-top {
     height: 100%;
     background: url(../images/footer-bg.jpg);
@@ -257,7 +216,6 @@ main {
             a {
                 display: flex;
                 gap: 11px;
-                flex-wrap: wrap;
                 background: #E5ECF4;
                 border-radius: 4px;
                 padding: 8px 15px;
@@ -297,7 +255,6 @@ main {
             display: flex;
             align-items: center;
             gap: 58px;
-            flex-wrap: wrap;
         }
         img:hover {
             transition: all 0.5s ease;
@@ -305,7 +262,6 @@ main {
         }
         .navigation {
             display: flex;
-            flex-wrap: wrap;
             gap: 32px;
             a {
                 font-size: 15px;
