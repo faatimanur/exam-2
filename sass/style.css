@@ -332,4 +332,65 @@ main .main-content button a:hover {
 .footer-bottom .footer-content .icons a:hover {
   transition: all 0.7s ease;
   opacity: 0.5;
+}
+
+@media screen and (max-width: 769px) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0;
+  }
+  .navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .navbar .navbar-nav .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .navbar button {
+    border: 1px solid #FCB72B;
+    background: transparent;
+    padding: 5px 0;
+  }
+  .navbar button a {
+    padding: 5px 10px;
+    color: #FCB72B;
+  }
+  .main-content {
+    text-align: center;
+  }
+  .main-content h1 {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    width: 0;
+    margin-left: 125px;
+  }
+  .main-content .title p {
+    margin-left: 170px;
+    margin-bottom: 15px;
+  }
+  .main-content .title .line {
+    display: none;
+  }
+  .main-content .title img {
+    display: none;
+  }
+  .main-content button {
+    text-align: center;
+    margin-right: 280px;
+  }
 }/*# sourceMappingURL=style.css.map */
